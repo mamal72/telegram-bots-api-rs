@@ -26,8 +26,8 @@ struct _GetMeResult {
 
 #[derive(RustcDecodable)]
 pub struct GetMe {
-    ok: bool,
-    result: _GetMeResult
+    pub ok: bool,
+    pub result: _GetMeResult
 }
 
 impl Bot {
