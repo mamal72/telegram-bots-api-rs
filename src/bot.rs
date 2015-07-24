@@ -18,16 +18,16 @@ pub struct Bot {
 
 
 #[derive(RustcDecodable)]
-struct _GetMeResult {
+struct GetMeResult {
     id: i32,
     first_name: String,
-    username: String
+    username: String,
 }
 
 #[derive(RustcDecodable)]
 pub struct GetMe {
     pub ok: bool,
-    pub result: _GetMeResult
+    result: GetMeResult,
 }
 
 impl Bot {
