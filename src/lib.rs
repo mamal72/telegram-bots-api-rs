@@ -1,4 +1,4 @@
 extern crate hyper;
 extern crate rustc_serialize;
 
-mod bot;
+pub mod bot;
