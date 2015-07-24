@@ -1,0 +1,16 @@
+[package]
+name = "telegram_bot"
+version = "0.1.0"
+description = "Telegram bots library using Telegram Bots API"
+readme = "README.md"
+repository = "https://github.com/mamal72/rust-telegram-bot"
+license = "MIT"
+authors = ["Mohamad Jahani <m4m4lj@gmail.com>"]
+
+[lib]
+name = "telegram_bot"
+path = "src/lib.rs"
+
+[dependencies]
+hyper = "*"
+rustc-serialize = "*"
